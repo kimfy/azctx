@@ -11,7 +11,7 @@ az login | pick
 ## Installation
 
 ```bash
-go get -u github.com/kimfy/pick
+go install github.com/kimfy/pick
 ```
 
 ## License
