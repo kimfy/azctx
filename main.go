@@ -33,6 +33,9 @@ func NewModel() model {
 }
 
 func (m model) Init() tea.Cmd {
+  if len(os.Args) == 1 {
+    log.Fatal("No input provided")
+  }
 	return m.parseStdin
 }
 

@@ -1,4 +1,4 @@
-module github.com/kimfy/pick
+module github.com/kimfy/azctx
 
 go 1.21.7
 
