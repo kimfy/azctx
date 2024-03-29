@@ -12,8 +12,8 @@ az account list --query '[].{Name:name, ID:id}' --output json | jq -r '.[] | "\(
 ## Usage
 
 ```bash
-az login | pick
-az account list | pick
+az login | azctx
+az account list | azctx
 ```
 
 ## Installation
